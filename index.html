@@ -1,27 +1,35 @@
 <!DOCTYPE html>
 <html>
 <head>
-<title>DAN</title>
-<link rel="stylesheet" type="text/css" href="css/index.css">
-<link href="https://fonts.googleapis.com/css?family=Nunito" rel="stylesheet">
+<!-- JavaScript Stuff -->
+<script src="js/title.js"></script>
+<script src="js/time.js"></script>
+<script src="js/app.js"></script>
+<script src="js/particles.js"></script>
+
+<!-- CSS Stuff -->
+<link rel="stylesheet" type="text/css" href="index.css">
+
+<!-- Other Stuff -->
+<link href="https://fonts.googleapis.com/css?family=Poppins" rel="stylesheet">
+<link rel="icon" href="files/icon.jpg">
+<meta name="viewport" content="width=device-width,initial-scale=1,maximum-scale=1" />
+<meta name="robots" content="noindex, nofollow" />
 </head>
-<body>
+<body onload="startTime()" id="particles-js">
+<script src="particleSets.js" type="text/javascript"></script>
+<div id="particles-js"></div>
+<audio src="files/songs/angel.mp3" autoplay="true"></audio>
 <div id="main">
-    <div class="video-background">
-    <div class="video-foreground">
-        <iframe src="https://www.youtube.com/embed/xAMgQQMZ9Lk?controls=0&showinfo=0&rel=0&autoplay=1&loop=1&playlist=xAMgQQMZ9Lk" frameborder="0" allowfullscreen></iframe>
-    </div>
-    </div>
-    <div class="container">
-        <div class="head">
-            <h1>sin ♡<h1>
-        </div>
-        <div class="info">
-            <a href="https://steamcommunity.com/profiles/76561198186786750"><h2>steam</h2></a>
-            <h2> x </h2>
-            <a href="https://leakforums.net/user-1275370"><h2>leakforums</h2></a>
-        </div>
-    </div>
+<div id="head" unselectable="on" class="unselectable">
+	<h1>danny</h1>
 </div>
+<div class="links">
+	<a href="http://steamcommunity.com/profiles/76561198186786750"><img height="85" width="85" src="files/steam.png"></img></a>
+	<a href="https://masteroverwatch.com/profile/pc/global/Daniel-212136"><img height="85" width="85" src="files/overwatch.png"></img></a>
+	<a href="https://ogusers.com/cat"><img height="85" width="85" src="files/ogu.png"></img></a>
+</div>
+</div>
+<div id="time" unselectable="on" class="unselectable"></div>
 </body>
 </html>
